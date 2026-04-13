@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageOps
 from io import BytesIO
 
 # --- CONFIGURACIÓN ---
-FEED_URL = "https://featured.inquisitr.com/feed/"
+FEED_URL = "https://noticiastrabajo.huffingtonpost.es/msn-feed.xml"
 LOCAL_LOGO_PATH = "logo.png"       # Nombre exacto de tu archivo local
 FONT_PATH = "tiempos-headline-semibold.ttf" # Nombre exacto de tu fuente
 TARGET_SIZE = (1080, 1350)
